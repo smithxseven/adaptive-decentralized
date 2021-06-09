@@ -1,11 +1,8 @@
-import sys
+import argparse
 
-def main():
-    print('Adaptive Command Line Interface - v.0.0.1')
-    args = sys.argv[1:]
-    for arg in args:
-        print('passed argument :: {}'.format(arg))
-    print('count of args :: {}'.format(len(args))) 
-
+runtimeDesc = 'Adaptive CLI --v.0.0.2--'
+messDesc = 'will eventually send message'
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=runtimeDesc)
+    parser.add_argument('-m', '--message', help=messDesc)
+    args = parser.parse_args()
