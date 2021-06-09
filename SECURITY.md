@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Version 1.0.0 will be the first usable release, with limited features. All previous versions are tests
 
 | Version | Supported                           |
 | ------- | ------------------------------------|
@@ -11,5 +10,5 @@ currently being supported with security updates.
 | <1.0.0  | :x:                                 |
 
 ## Reporting a Vulnerability
-report vulnerabilities and bugs on discord in #bugs
+Report vulnerabilities and bugs on discord in #bugs
 
