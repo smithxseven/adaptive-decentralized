@@ -1,2 +1,0 @@
-def username():
-    username = "name"

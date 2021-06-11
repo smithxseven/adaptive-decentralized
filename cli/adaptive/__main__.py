@@ -1,5 +1,5 @@
 import argparse
-runtimeDesc = 'Adaptive CLI --v.0.1.0--'
+runtimeDesc = 'Adaptive CLI --v.0.1.1--'
 messDesc = 'will eventually send message'
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=runtimeDesc)
